@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.prose {
+  color: inherit;
+}
+
+.prose h1 {
+  @apply text-2xl font-bold mt-6 mb-4;
+}
+
+.prose h2 {
+  @apply text-xl font-bold mt-5 mb-3;
+}
+
+.prose h3 {
+  @apply text-lg font-bold mt-4 mb-2;
+}
+
+.prose p {
+  @apply my-3 leading-relaxed;
+}
+
+.prose ul {
+  @apply list-disc pl-5 my-3;
+}
+
+.prose ol {
+  @apply list-decimal pl-5 my-3;
+}
+
+.prose li {
+  @apply my-1;
+}
+
+.prose strong {
+  @apply font-bold;
+}
+
+.prose a {
+  @apply text-blue-500 hover:text-blue-700 underline;
+}
